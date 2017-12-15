@@ -1,4 +1,4 @@
-FROM jimmycuadra/rust
+FROM rust:latest
 
 RUN cargo install cargo-make
 
